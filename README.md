@@ -62,36 +62,42 @@
         3. The user can then select a stream for the new student when adding them.
 
 
-Dynamic Table for Student List
-The Student List table on the index.jsp page is also dynamic. It displays all students in the database, including their roll number, name, stream, and registration number. The data for this table is fetched dynamically by querying the student_tbl table and displaying the results in the table format.
+####  **3. Dynamic Table for Student List**
+    The Student List table on the index.jsp page is also dynamic. 
+    It displays all students in the database, including their roll number, name, stream, and registration number. 
+    The data for this table is fetched dynamically by querying the student_tbl table and displaying the results in the table format.
 
 
-How it Works:
-When a user views the page, the StudentDao fetches all student records from the student_tbl table.
-These records are passed to the index.jsp page, which dynamically generates the student table.
-The table displays all students, allowing users to view and interact with them (e.g., edit or delete).
-Backend Components (Servlets)
-ManageTask Servlet
+#####  **How it Works:**
+    1. When a user views the page, the StudentDao fetches all student records from the student_tbl table.
+    2.These records are passed to the index.jsp page, which dynamically generates the student table.
+    3. The table displays all students, allowing users to view and interact with them (e.g., edit or delete).
+
+    
+##  **Backend Components (Servlets)**
+###  **ManageTask Servlet**
 The ManageTask Servlet handles all the main operations:
 
-Add Student: Adds a new student to the database.
-Refresh Page: Clears session attributes like messages and student lists.
-Search Students: Searches students by roll number, name, or stream.
-Search All Students: Retrieves and displays all students.
-Update Student: Updates student information.
-Delete Student: Deletes a student by roll number.
-StudentDao (Data Access Object)
-This class provides the actual database operations (CRUD) using SQL queries stored in the Query interface.
+1. Add Student: Adds a new student to the database.
+2. Refresh Page: Clears session attributes like messages and student lists.
+3. Search Students: Searches students by roll number, name, or stream.
+4. Search All Students: Retrieves and displays all students.
+5. Update Student: Updates student information.
+6. Delete Student: Deletes a student by roll number.
 
-StreamDao
-This class retrieves all available streams from the database for the dropdown in the frontend.
 
-Helper Classes
-ConnectionProvider
-Handles database connections by providing a static method to get a MySQL connection using credentials defined in DBUtilities.
+###  **StudentDao (Data Access Object)**
+    This class provides the actual database operations (CRUD) using SQL queries stored in the Query interface.
 
-DBUtilities
-Stores the database connection properties (e.g., database URL, username, password).
+###  **StreamDao**
+    This class retrieves all available streams from the database for the dropdown in the frontend.
+
+###  **Helper Classes**
+####  **ConnectionProvider**
+        Handles database connections by providing a static method to get a MySQL connection using credentials defined in DBUtilities.
+
+####  **DBUtilities**
+        Stores the database connection properties (e.g., database URL, username, password).
 
 How to Use
 1. Add Student
