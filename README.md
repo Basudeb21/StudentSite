@@ -26,30 +26,30 @@
             If the roll number is unique, the student is added to the student_tbl table.
 
 
-###  ** 2. Search for Student**
+###  **2. Search for Student**
     The system allows searching for students based on:
     i. Roll Number
     ii. Name
     iii. Stream
     If no results are found, a message is displayed. The user can search for a single attribute or combine attributes (for example, by name and stream).
 
-###  ** 3. View All Students**
+###  **3. View All Students**
     The system allows displaying a list of all registered students from the student_tbl table.
 
-###  ** 4. Update Student Information**
+###  **4. Update Student Information**
     The system allows users to update student data. Students can be updated based on their roll number or name.
 
-###  ** 5. Delete Student**
+###  **5. Delete Student**
     A student can be deleted by providing the roll number. The system will delete the corresponding record from the student_tbl table.
 
 ##  **Frontend Components (JSP)**
-####  ** 1. index.jsp**
+####  ** 1.index.jsp**
         The main page where users can perform all CRUD operations:
         Add, search, update, and delete students.
         View a list of all students.
         The index.jsp page interacts with the backend (Servlets) to display messages (e.g., success or error) and show the student data in a table.
 
-####  ** 2. Dynamic Dropdown for Stream Selection**
+####  ** 2.Dynamic Dropdown for Stream Selection**
         In the Add Student form, the stream selection is provided as a dynamic dropdown. 
         This dropdown is populated with stream names from the stream table in the database.
         When the page loads, the StreamDao class queries the database to fetch the available stream names and displays them in the dropdown.
