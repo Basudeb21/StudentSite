@@ -99,14 +99,14 @@ The ManageTask Servlet handles all the main operations:
 ####  **DBUtilities**
         Stores the database connection properties (e.g., database URL, username, password).
 
-How to Use
-1. Add Student
-On the index.jsp page, enter the roll number, name, and select the stream from the dynamic dropdown for the new student.
-Click "Add Student" to add the student to the database.
-2. Search Student
-On the index.jsp page, enter a roll number, name, or stream in the search fields.
-Click "Search" to find students based on the entered data.
-3. View All Students
-The student list is dynamically displayed in a table, where users can see all registered students.
-4. Update or Delete Student
-Click on the respective buttons on the page to update or delete a student based on their roll number.
+## **How to Use**
+    1. Add Student
+    On the index.jsp page, enter the roll number, name, and select the stream from the dynamic dropdown for the new student.
+    Click "Add Student" to add the student to the database.
+    2. Search Student
+    On the index.jsp page, enter a roll number, name, or stream in the search fields.
+    Click "Search" to find students based on the entered data.
+    3. View All Students
+    The student list is dynamically displayed in a table, where users can see all registered students.
+    4. Update or Delete Student
+    Click on the respective buttons on the page to update or delete a student based on their roll number.
