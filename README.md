@@ -1,4 +1,4 @@
-#**Student Management System Documentation**
+# **Student Management System Documentation**
 
 Overview
 The Student Management System allows users to manage student records, including adding, updating, deleting, and searching for students based on specific attributes like roll number, name, and stream. It also supports viewing all students and searching students by stream.
