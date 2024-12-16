@@ -1,22 +1,21 @@
 # **Student Management System Documentation**
 
-Overview
-The Student Management System allows users to manage student records, including adding, updating, deleting, and searching for students based on specific attributes like roll number, name, and stream. It also supports viewing all students and searching students by stream.
+## **Overview**
+  The Student Management System allows users to manage student records, including adding, updating, deleting, and searching for students based on specific attributes like roll number, name, and stream. It also     supports viewing all students and searching students by stream.
+  The system leverages JSP for the frontend, Java Servlets for backend processing, and MySQL for the database.
 
-The system leverages JSP for the frontend, Java Servlets for backend processing, and MySQL for the database.
-
-Technologies Used
-Frontend: JSP (JavaServer Pages)
-Backend: Servlets
-Database: MySQL
-Database Connectivity: JDBC (Java Database Connectivity)
-Development Tools: Eclipse IDE (or any Java-compatible IDE)
+## **Technologies Used**
+    Frontend: JSP (JavaServer Pages)
+    Backend: Servlets
+    Database: MySQL
+    Database Connectivity: JDBC (Java Database Connectivity)
+    Development Tools: NetBeans, XAMPP
 
 
 
 Core Features and Functionality
-1. Add New Student
-The system allows adding new students to the database by providing the following details:
+  1. Add New Student
+  The system allows adding new students to the database by providing the following details:
 
 Roll Number: A unique identifier for each student.
 Name: The student's full name.
