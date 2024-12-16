@@ -43,13 +43,13 @@
     A student can be deleted by providing the roll number. The system will delete the corresponding record from the student_tbl table.
 
 ##  **Frontend Components (JSP)**
-####  ** 1.index.jsp**
+####  **1.index.jsp**
         The main page where users can perform all CRUD operations:
         Add, search, update, and delete students.
         View a list of all students.
         The index.jsp page interacts with the backend (Servlets) to display messages (e.g., success or error) and show the student data in a table.
 
-####  ** 2.Dynamic Dropdown for Stream Selection**
+####  **2.Dynamic Dropdown for Stream Selection**
         In the Add Student form, the stream selection is provided as a dynamic dropdown. 
         This dropdown is populated with stream names from the stream table in the database.
         When the page loads, the StreamDao class queries the database to fetch the available stream names and displays them in the dropdown.
