@@ -14,7 +14,7 @@
 
 
 ## **Core Features and Functionality**
-    ###  **1. Add New Student**
+###  **1. Add New Student**
               The system allows adding new students to the database by providing the following details:
               Roll Number: A unique identifier for each student.
               Name: The student's full name.
